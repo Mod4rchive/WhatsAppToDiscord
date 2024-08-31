@@ -2,6 +2,8 @@
 
 WhatsAppToDiscord is a Discord bot that uses WhatsApp Web as a bridge between Discord and WhatsApp. It is built on top of [discord.js](https://github.com/discordjs/discord.js) and [Baileys](https://github.com/WhiskeySockets/Baileys) libraries.
 
+Must edit dependencies as shown in this issue to fix profile picture in discord https://github.com/FKLC/WhatsAppToDiscord/issues/199#issuecomment-2322509568
+
 ### Features
 
 - Supports media (Image, Video, Audio, Document, Stickers) and reactions!
@@ -14,3 +16,5 @@ WhatsAppToDiscord is a Discord bot that uses WhatsApp Web as a bridge between Di
 ---
 
 ### For setup and commands, check out the [documentation](https://fklc.github.io/WhatsAppToDiscord/)!
+
+### Reply from Discord to Whatsapp doesnt work right now, it will send a regular message without mention

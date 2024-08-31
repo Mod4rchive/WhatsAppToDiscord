@@ -163,10 +163,11 @@ const connectToWhatsApp = async (retry = 1) => {
         }
 
         if (message.reference) {
-            options.quoted = await utils.whatsapp.createQuoteMessage(message);
+            options.quoted == null;
+            /* options.quoted = await utils.whatsapp.createQuoteMessage(message);
             if (options.quoted == null) {
                 message.channel.send("Couldn't find the message quoted. You can only reply to last 500 messages. Sending the message without the quoted message.");
-            }
+            } */
         }
 
         if (message.content === "") return;

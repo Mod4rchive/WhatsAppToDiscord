@@ -4,6 +4,8 @@ WhatsAppToDiscord is a Discord bot that uses WhatsApp Web as a bridge between Di
 
 Must edit dependencies as shown in this issue to fix profile picture in discord https://github.com/FKLC/WhatsAppToDiscord/issues/199#issuecomment-2322509568
 
+TMUX: while true; do ./W2DC; sleep 2; done
+
 ### Features
 
 - Supports media (Image, Video, Audio, Document, Stickers) and reactions!
